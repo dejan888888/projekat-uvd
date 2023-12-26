@@ -224,19 +224,25 @@ font-size: 35px;
     }
 }
 @media (max-width: 767px) {
+
+    .aboutfestival h1{
+        font-size: 40pt;
+    }
+    .aboutfestival p{
+        font-size: 23pt;
+    }
     .ticket-section {
         padding-top: 8%;
-        padding-right: 15px
+        padding-right: 30px;
     }
     .ticket, .info {
         width: 100%;
-
     }
     .info{
         margin-bottom: 20%;
     }
     .btn-dark {
-        margin-left: 33%;
+        margin-left: 30%;
         margin-top: 45%;
     }
   }
