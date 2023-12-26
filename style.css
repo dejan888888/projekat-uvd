@@ -226,6 +226,7 @@ font-size: 35px;
 @media (max-width: 767px) {
     .ticket-section {
         padding-top: 8%;
+        padding-right: 15px
     }
     .ticket, .info {
         width: 100%;
