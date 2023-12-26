@@ -1,0 +1,242 @@
+body {
+    font-family: 'ITC Eras Bold','Lucida Sans Regular';  
+}
+nav.navbar {
+    padding: 0;
+    margin: 0;
+}
+.navbar-toggler{
+    margin-bottom: 40px;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: #fff;
+    color: #fff;
+}
+#navbacground{
+    background-color: red;
+}
+ #logo {
+    height: 33%;
+    width: 35%; 
+    padding-top: 35px;
+    padding-left: 40px; 
+}
+.navbar-nav a {
+    margin-right: 190px;
+    color: #fff;   
+}
+.nav-item{
+    padding-right: 200px;
+}
+.jumbotron {
+    background-image: url('slike/pozadinanaslovna.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}   
+.aboutfestival {
+    text-align: center;  
+}
+.aboutfestival h1 {
+    padding-top: 200px;
+    font-size: 60pt;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.aboutfestival p {
+    font-size: 24pt;
+}
+#herobtn
+  {
+    align-items:center;
+    justify-content:center;
+  }
+#gallery{
+    background-color: #3d6098;
+    text-align: center;
+}
+#gallery h1 {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif; 
+    height: 50px;
+}
+.gallery-section{
+    margin-top: -8px;
+    background-color: #213159 ; 
+   
+    margin-bottom: -20px;
+  }
+.picture{
+    padding-top: 80px;
+}  
+.picturesbtn{
+    justify-content:center; 
+    align-items:center;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+.picturesbtn a{
+    background-color: #3d6098;
+    border: solid #3d6098 ;  
+    color: #fff;   
+}
+.btn-social-icon {
+    margin: 10px;
+}
+.btn-facebook{
+    color: white;
+    background-color: blue;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.btn-instagram{
+    margin-left: 60px;
+    background-color: palevioletred;
+    color: #fff;
+}
+.btn-youtube{
+    background-color: red;
+    color: #fff;
+    margin-right: 50px;
+}
+footer{
+    background-color: black;
+    margin-top: 20px;
+}
+.hero-artist
+{
+    background-image: url('slike/IZVODJACI.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.position-relative {
+    position: relative;
+  }
+.overlay-text {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 96.5%;
+    background-color: rgba(192, 192, 192, 0.482); 
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box; 
+    border-radius: 0 0 16px 16px; 
+  }
+.artist{
+    padding-bottom: 75px;
+  }
+.hero-ticket
+  {
+      background-image: url('slike/ULAZNICE.jpg');
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+  }
+.ticket-section{
+    padding-left: 30px;
+    margin-top: -8px;
+    background-color: #213159 ; 
+    margin-bottom: -20px;
+  }
+.ticket{
+    height: 30%;
+    width: 23vh;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 17px 17px 0 0;
+    padding-top: 10px;
+} 
+.ticket p {
+text-align: center;
+font-size: 35px;
+}
+.info {
+    height: 45vh;
+    width: 23vh;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 0 0 17px 17px; 
+    margin-bottom: 6%;
+}
+.info p {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn-dark{
+    color: white;
+    border-radius: 20px;
+    margin-top: 70%;
+    margin-left: 20%; 
+}
+@media screen and (min-width: 1020px) and (min-device-width: 1020px) {
+    .ticket-section{
+        padding-top: 70px;   
+    }
+    .ticket,.info {
+        display: inline-block;
+        vertical-align: top;   
+    }
+    .ticket {
+        height: 25vh;
+        width: 35vh;
+        border: 2px solid white;
+        border-radius: 17px 0 0 17px;
+        margin-left: 12%; 
+        padding-top: 30px;
+    }
+    .ticket p {
+        text-align: center;
+        font-size: 32px;  
+    }
+    .info {
+        height: 25vh;
+        width: 65vh;
+        border-radius: 0 17px 17px 0;
+        margin-right: 13%; 
+    }
+    .info p {
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        padding-right: 68px;
+    }
+    .btn-dark {
+        display: inline-block;
+        color: white;
+        border-radius: 20px;
+        margin-top: 10%;
+        margin-left: 33%; 
+    }
+}
+@media (max-width: 767px) {
+    .ticket-section {
+        padding-top: 8%;
+    }
+    .ticket, .info {
+        width: 100%;
+
+    }
+    .info{
+        margin-bottom: 20%;
+    }
+    .btn-dark {
+        margin-left: 33%;
+        margin-top: 45%;
+    }
+  }
+  
